@@ -1,0 +1,54 @@
+body {
+    margin:0;
+}
+@keyframes move{
+    from{transform:rotate(-5deg);}
+    50%{transform:rotate(5deg);}
+    to{transform:rotate(-5deg);}
+}
+button{
+    font-size:30px;
+    background: #ffaaaa;
+    color: #c7004c; 
+    border:none;
+    border-box: 3px solid #000;
+    outline:none;
+    font-family: Cinzel', serif;
+}
+#message{
+    background: #ffaaaa;
+    width: 300px;
+    border-radius:10px;
+    font-family:ubuntu;
+    font-size: 20px;
+    color: #000;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+img {  
+align-items: center;
+width: 100px;
+height: 100px;
+position: absolute in;
+}
+h1{
+    color: #000;
+    font-family: arial, sans-serif;
+    margin-top:10px;
+    display:inline-block ;
+    font-size: 20px;
+}
+h1 span{ 
+
+color: black;
+}
+#loaded{
+    background: #e37070;
+    height:100vh;
+    width:100vw;
+    position:fixed;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
