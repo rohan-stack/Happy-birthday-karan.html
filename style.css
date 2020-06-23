@@ -12,7 +12,10 @@ button{
     background: #ffaaaa;
     color: #c7004c; 
     border:none;
-    border-box: 3px solid #000;
+    border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
     outline:none;
     font-family: Cinzel', serif;
 }
